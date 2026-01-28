@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhumi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <h2 class="logo">Bhumi</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <h1>Hello, I'm <span>Bhumi</span></h1>
+    <p>Second Year Student at Chitkara University</p>
+    <button onclick="scrollToSection('contact')">Hire Me</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a second-year BTech student at Chitkara University with a strong interest in
+      web development and software engineering. I enjoy building interactive and
+      user-friendly applications using modern web technologies.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-box">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>C</span>
+      <span>C++</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">CollegeMate – Smart College Web App</div>
+      <div class="card">Portfolio Website</div>
+      <div class="card">Java Mini Projects</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="showMessage(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="msg"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Bhumi | Portfolio Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

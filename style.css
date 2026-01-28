@@ -1,0 +1,325 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: #38bdf8;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #38bdf8;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #38bdf8;
+}
+
+section {
+  padding: 60px 80px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.skill-box span {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #020617;
+  border-radius: 20px;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.skill-box span:hover {
+  background: #38bdf8;
+  color: black;
+  transform: translateY(-5px);
+}
+
+.project-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 15px;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+form {
+  max-width: 400px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #38bdf8;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  margin-top: 40px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: #38bdf8;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  background: #38bdf8;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero button:hover {
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 80px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* SKILLS */
+.skill-box span {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #020617;
+  border-radius: 20px;
+}
+
+.skill-box span:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+/* PROJECTS */
+.project-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #020617;
+  padding: 25px;
+  border-radius: 15px;
+  width: 260px;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+.card h3 {
+  color: #38bdf8;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.tech {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-group a {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  border-radius: 20px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* CONTACT */
+form {
+  max-width: 400px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
