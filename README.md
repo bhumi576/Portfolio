@@ -21,7 +21,7 @@ JavaScript – Interactivity and smooth user experience
 ## Projects Featured
 ~ CollegeMate – Smart College Web Application
 ~ Portfolio Website – Personal branding project
-~ Java Mini Projects – Core Java practice projects
+~ JavaScript Mini Project
 
 This portfolio will be continuously updated as I learn new technologies and build more projects.
 
